@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# str line to 
+# str lines to merge
 str = 'Holberton School'
 print(str * 3)
 print(str[:9])
