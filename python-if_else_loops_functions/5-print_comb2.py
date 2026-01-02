@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 for comb in range(0, 100):
-    if comb < 10:
-        print(str(0)+str("{}".format(comb)), end=", ")
+    if comb < 99:
+        print({:2d}.format(comb), end=", ")
     else:
-        print("{}".format(comb), end=", ")
+        print("{}".format(comb))
