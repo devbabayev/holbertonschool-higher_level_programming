@@ -3,7 +3,5 @@ def no_c(my_string):
     new_string = ""
     for i in my_string:
         if i == 'c':
-            new_string += " "
-        else:
-            new_string += i
-    return new_string
+            del my_string[i]
+    return my_string
