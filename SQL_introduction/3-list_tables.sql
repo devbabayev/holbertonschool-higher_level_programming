@@ -1,0 +1,2 @@
+-- mysql comment
+SHOW TABLES
