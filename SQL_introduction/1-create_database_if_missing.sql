@@ -1,2 +1,2 @@
--- mysql comment
-CREATE DATABASE IF NOT EXITS hbtn_0c_0;
+-- SQL server
+CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
