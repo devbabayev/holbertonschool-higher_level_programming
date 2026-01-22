@@ -1,1 +1,2 @@
-SELECT score, name * FROM second_table ORDER BY score DESC;
+-- mysql comment
+SELECT score, name FROM second_table ORDER BY score DESC;
