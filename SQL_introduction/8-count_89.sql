@@ -1,2 +1,2 @@
 -- mysql commnet
-SELECT COUNT(*) FROM first_table WHERE id = 90;
+SELECT COUNT(*) FROM first_table WHERE id = 89;
