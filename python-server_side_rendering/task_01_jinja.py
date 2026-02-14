@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 """Basic HTML template in flask"""
+import os
 from flask import Flask, render_template
-app = Flask(__name__)
+
+app = Flask(__name__, template_folder='templates')
 
 @app.route('/')
 def home():
-    """" route for home page"""
     return render_template('index.html')
 @app.route('/about')
 def about():
